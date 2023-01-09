@@ -1,12 +1,3 @@
-#banner h1 {
-    opacity: 1;
-    color: black;
-    text-align: center;
-    margin: 50px 0px;
-    background-color: white;
-    opacity: 0.75;
-}
-
 #banner {
     background-image: url("img/banner.jpg");
     background-size: cover;
@@ -15,10 +6,41 @@
     opacity: 0.9;
 }
 
-.gallery-item {
-    margin-top: 50px;
+#banner h1 {
+    opacity: 1;
+    font-family: "Palatino";
+    font-weight: bold;
+    color: black;
+    text-align: center;
+    margin: 50px 0px;
+    background-color: white;
+    opacity: 0.75;
 }
 
-#introduction {
-    position: relative;
+#content {
+    padding-top: 30px;
+    
 }
+
+p {
+    font-size: 20px;
+    font-family: Verdana;
+    font-weight: lighter;
+    padding: 30px;
+}
+
+header {
+    margin: 40px 0px;
+}
+
+.start:hover {
+    color: white;
+    opacity: 70%;
+}
+
+.gallery-item {
+    margin-top: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
